@@ -1,0 +1,15 @@
+package renderer.skybox;
+
+public class Skybox implements ISkybox {
+	
+	public Skybox() {
+		
+	}
+
+	@Override
+	public String getSkyboxTexture() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

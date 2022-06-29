@@ -1,0 +1,8 @@
+package renderer.skybox;
+
+public interface ISkybox {
+
+	String getSkyboxTexture();
+	String getSkyboxTexture();
+	
+}

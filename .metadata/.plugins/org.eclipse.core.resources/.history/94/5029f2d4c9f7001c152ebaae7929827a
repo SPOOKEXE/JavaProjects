@@ -1,0 +1,7 @@
+package renderer.skybox;
+
+public interface ISkybox {
+
+	
+	
+}

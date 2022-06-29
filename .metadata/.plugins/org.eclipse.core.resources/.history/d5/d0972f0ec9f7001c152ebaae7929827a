@@ -1,0 +1,11 @@
+package renderer.skybox;
+
+public class SkyboxManager {
+
+	
+	public Color GetColorFromRay() {
+		
+	}
+	
+	
+}

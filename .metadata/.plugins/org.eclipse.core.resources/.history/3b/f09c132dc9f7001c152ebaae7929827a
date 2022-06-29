@@ -1,0 +1,18 @@
+package renderer.ray;
+
+import renderer.point.Point3D;
+import renderer.point.Vector3;
+import renderer.world.IWorld;
+
+// https://github.com/jMonkeyEngine/jmonkeyengine/blob/master/jme3-core/src/main/java/com/jme3/math/Ray.java
+
+public class Ray implements IRay {
+
+	@Override
+	public RayResult getWorldIntersection(Point3D position, Vector3 direction, IWorld world) {
+		RayResult newResult = new RayResult();
+		
+		return newResult;
+	}
+
+}

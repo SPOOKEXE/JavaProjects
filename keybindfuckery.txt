@@ -1,0 +1,8 @@
+import java.awt.KeyEventDispatcher;
+
+KeyboardFocusManager.getCurrentKeyboardFocusManager().addKeyEventDispatcher(new KeyEventDispatcher() {
+	public boolean dispatchKeyEvent(KeyEvent ke) {
+		System.out.println(ke.getKeyChar());
+		return false;
+	}
+});
