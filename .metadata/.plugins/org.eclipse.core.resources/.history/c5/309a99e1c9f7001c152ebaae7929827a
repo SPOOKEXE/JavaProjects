@@ -1,9 +1,0 @@
-package renderer.skybox;
-
-public class Skybox implements ISkybox {
-	
-	public Skybox() {
-		
-	}
-	
-}
